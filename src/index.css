@@ -1,0 +1,82 @@
+body {
+  font-family: monospace;;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-main
+{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-img
+{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* calculator desing */
+.calc{
+  width: 320px;
+  margin: 60px auto;
+  height: 70vh;
+}
+#answer{
+  background-color: #e2e2e2;
+  padding: 15px;
+  font-size: 30px;
+  width: 320px;
+  height: 55px;
+  text-align: right;
+  border: none;
+  outline: none;
+  border: 3px solid #333;
+}
+.button{
+  background-color: #333;
+  height: 60px;
+  width: 80px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid black;
+  float: left;
+}
+.button1{
+  width: 160px;
+}
+.button2{
+  width: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
