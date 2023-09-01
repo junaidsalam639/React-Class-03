@@ -37,33 +37,34 @@ code {
 .calc{
   width: 320px;
   margin: 60px auto;
-  height: 70vh;
+  height: 90vh;
 }
 #answer{
   background-color: #e2e2e2;
   padding: 15px;
   font-size: 30px;
-  width: 320px;
+  width: 280px;
   height: 55px;
   text-align: right;
   border: none;
   outline: none;
-  border: 3px solid #333;
+  margin: 5px;
 }
 .button{
-  background-color: #333;
-  height: 60px;
-  width: 80px;
-  color: white;
+  margin: 7px;
+  background-color: #ffffff;
+  height: 50px;
+  width: 60px;
+  color: #333;
   font-size: 30px;
   border: 1px solid black;
   float: left;
 }
 .button1{
-  width: 160px;
+  width: 134px;
 }
 .button2{
-  width: 320px;
+  width: 283px;
 }
 
 
