@@ -35,36 +35,47 @@ code {
 
 /* calculator desing */
 .calc{
-  width: 320px;
+  width: 300px;
   margin: 60px auto;
-  height: 90vh;
+  height: 70vh;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+.calc h1{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #ced6e0;
 }
 #answer{
   background-color: #e2e2e2;
   padding: 15px;
-  font-size: 30px;
-  width: 280px;
-  height: 55px;
+  font-size: 25px;
+  width: 236px;
+  height: 50px;
   text-align: right;
   border: none;
   outline: none;
   margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .button{
-  margin: 7px;
+  margin: 6px;
   background-color: #ffffff;
-  height: 50px;
-  width: 60px;
+  height: 40px;
+  width: 50px;
   color: #333;
-  font-size: 30px;
+  font-size: 25px;
   border: 1px solid black;
-  float: left;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .button1{
-  width: 134px;
+  width: 113px;
 }
 .button2{
-  width: 283px;
+  width: 243px;
 }
 
 

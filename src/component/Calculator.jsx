@@ -5,7 +5,7 @@ const Calculator = () => {
 
   const handleValue = (event) => {
     console.log(event.target);
-    setValue(value.concat(event.target.value))
+    setValue(value+event.target.value)
   }
 
   const handleClear = () => {
@@ -23,6 +23,7 @@ const Calculator = () => {
 
   return (
     <>
+    <div className='calculator'>
      <div className='calc'>
       <h1 className='text-center'>Calculator!</h1>
        <input type="text" placeholder='0' id='answer' value={value} />
@@ -46,6 +47,7 @@ const Calculator = () => {
        <input type="button" value={'Del'} className='button button1' onClick={handleDel}/>
        <input type="button" value={'='} className='button button2' onClick={handleEval}/>
      </div>
+    </div>
     </>
   )
 }
