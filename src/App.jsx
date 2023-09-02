@@ -23,14 +23,14 @@ function App() {
         <CollapsibleExample/>
         {/* calculator */}
         <Calculator/>
-        <div className="container text-center bg-info">
+        <div className="container text-center bg-light shadow p-3 mb-5 bg-white rounded">
         <h1>Plus value is : {add(20,30)}</h1>
         <h1>Sub value is : {sub(20,10)}</h1>
         <h1>Mul value is : {mul(20,30)}</h1>
         <h1>Div value is : {div(200,30)}</h1>
         </div>
         {/* count / textarea */}
-        <div className="container text-center my-4 bg-light">
+        <div className="container text-center my-4 bg-light shadow p-3 mb-5 bg-white rounded">
         <TextForm heading = "Text From  Heading" />
         </div>
 
